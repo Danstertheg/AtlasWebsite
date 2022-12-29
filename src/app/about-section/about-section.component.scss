@@ -1,0 +1,24 @@
+.about-section{
+    margin-top:150px;
+    margin-bottom: 150px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        font-size: 45px;
+    }
+    font-family: 'Share Tech', sans-serif;
+
+
+}
+.about-section-wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="about-section-wrapper"] {
+      flex-direction:column;
+    }
+  }

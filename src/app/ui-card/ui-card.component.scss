@@ -1,0 +1,43 @@
+:host-context(.theme-legendary){
+background-color: rgb(245, 218, 63);
+}
+:host-context(.theme-epic){
+background-color: rgb(199, 35, 199);
+}
+:host-context(.theme-rare)
+{
+background-color: rgb(45, 126, 240);
+}
+:host-context(.theme-common){
+    background-color:gainsboro;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 325px;
+    padding: 8px;
+    margin: 15px;
+    min-height: 200px;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    }
+     .button-wrapper{
+        display: flex;
+        justify-content: center;
+     }
+    .card img {
+     max-width: 400px;
+    }
+     
+    .title {
+    padding-top: 16px;
+    }
+     
+    .container {
+    padding: 2px 16px;
+    }
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="card"] {
+          width:85%;
+        }
+      }

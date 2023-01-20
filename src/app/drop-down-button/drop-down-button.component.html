@@ -1,11 +1,11 @@
-<div class="dropdown mat-typography">
+<div class="dropdown mat-typography" style = "width:100%;">
   <div id = "hamburger-menu" class="hamburger-menu" (click)="showHide()">
     <div class="bar1"></div>
     <div class="bar2"></div>
     <div class="bar3"></div>
   </div>
     <!-- <button mat-button color ="accent" (click)="showHide()" >Services ↓</button> -->
-    <ng-template [ngIf] = "isVisible">
+    <ng-template [ngIf] = "isVisible" style = "width: 100%;">
     <div id="myDropdown" class="dropdown-content" >
       <a (click) = "scrollServices()">Services</a>
       <a (click) = "scrollAbout()">About</a>

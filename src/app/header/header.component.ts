@@ -17,6 +17,9 @@ export class HeaderComponent {
       inline: "nearest"
       });
   }
+  redirectEinstein(){
+    window.location.href = "./EinsteinWriter";
+  }
   scrollContact() {
     document.getElementById("#contact")?.scrollIntoView({
       behavior: "smooth",

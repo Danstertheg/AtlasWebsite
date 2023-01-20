@@ -46,6 +46,7 @@ import { AppDevelopmentComponent } from './app-development/app-development.compo
 import { ManagementSoftwareComponent } from './management-software/management-software.component';
 import { ModalComponent } from './modal/modal.component';
 import { PricingTableComponent } from './pricing-table/pricing-table.component';
+import { EinsteinWriterComponent } from './einstein-writer/einstein-writer.component';
 
 
 @NgModule({
@@ -65,7 +66,8 @@ import { PricingTableComponent } from './pricing-table/pricing-table.component';
     AppDevelopmentComponent,
     ManagementSoftwareComponent,
     ModalComponent,
-    PricingTableComponent
+    PricingTableComponent,
+    EinsteinWriterComponent
   ],
   imports: [
     BrowserModule,
